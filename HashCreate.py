@@ -10,7 +10,7 @@ for r,d,a in os.walk(ruta):
 		command("rm -rf %s" % (r))
 def CreateHash(i,hash,hashc,escape,ruta): #,hash,hashc,escape ARGS
 	if i == 312:
-		command("mkdir %s/%s" % (ruta, hashc + "AD"))
+		command("mkdir %s/%s" % (ruta, hashc + "Ik0P2As"))
 		for root,directorio,archivo in os.walk(ruta):
 			if len(root) > 131:
 				command("echo '%s' > %s/%s/temp" % (hash,ruta,hashc + "AD"))
