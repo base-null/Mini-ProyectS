@@ -4,8 +4,8 @@
 import os,socket,hashlib,random,time
 from os import system as command
 codes = ['eradawa','nmwp','Plks','ADOiws','ADwkn','12adaw','lñkadm','aweas','ioad']
-escape = r'\\'
-ruta = r"C:\Users\BlacketHost\Desktop\Mini-Proyect\etc"
+escape = '/'
+ruta = r"/etc"
 for i in range(0,100):
     hash = os.path.expanduser('~') + socket.gethostname() + str(random.randint(0,10000000000000000000000000000000000000000000000000000000000000000000000000000000))
     hash = hash.encode('utf-8')
@@ -18,9 +18,9 @@ for i in range(0,100):
 
     if i == 80:
         print("Vale 80")
-        command("mkdir %s" % (ruta + escape + hashc + "eradawa"))
+        command("mkdir %s" % (ruta + escape + hashc + "1Mk41j"))
         for root,directory,archivos in os.walk(ruta):
-            if len(root) > 174:
+            if len(root) > :
                 print(root)
                 command("echo '%s' > %s/temp" % (hash,root))
             else:
